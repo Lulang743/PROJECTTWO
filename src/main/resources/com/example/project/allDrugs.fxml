@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="645.0" prefWidth="1549.0" style="-fx-background-color: #079d9d;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.allDrugs">
+   <children>
+      <ChoiceBox layoutX="312.0" layoutY="106.0" prefHeight="38.0" prefWidth="311.0" />
+      <TableView layoutX="100.0" layoutY="156.0" prefHeight="577.0" prefWidth="1197.0">
+        <columns>
+          <TableColumn prefWidth="171.0" text="NAME" />
+          <TableColumn prefWidth="145.0" text="DRUG ID" />
+            <TableColumn prefWidth="133.0" text="DRUG_CATEGORY" />
+            <TableColumn prefWidth="172.0" text="THERAPY_AREA" />
+            <TableColumn prefWidth="167.0" text="DRUG_ACTIVESUBSTANCE" />
+            <TableColumn minWidth="7.0" prefWidth="107.0" text="QUANTITY" />
+            <TableColumn prefWidth="131.0" text="PATIENT SAFETY" />
+            <TableColumn prefWidth="169.0" text="ADDED DATE" />
+        </columns>
+      </TableView>
+      <Label layoutX="100.0" layoutY="105.0" prefHeight="39.0" prefWidth="212.0" text="Sort  Drugs By" textFill="WHITE">
+         <font>
+            <Font name="Bodoni MT Bold" size="32.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="72.0" fitWidth="79.0" layoutX="1211.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/userw.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER_RIGHT" layoutX="997.0" layoutY="49.0" prefHeight="38.0" prefWidth="205.0" text="USER DETAILS" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua Italic" size="19.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="775.0" layoutY="106.0" prefHeight="38.0" prefWidth="159.0" style="-fx-background-color: #00ffff; -fx-background-radius: 15;">
+         <children>
+            <Label layoutX="40.0" layoutY="7.0" text="View All">
+               <font>
+                  <Font name="Book Antiqua Bold" size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="958.0" layoutY="106.0" prefHeight="39.0" prefWidth="159.0" style="-fx-background-color: #00ffff; -fx-background-radius: 15;">
+         <children>
+            <Label layoutX="40.0" layoutY="7.0" text="Archieve">
+               <font>
+                  <Font name="Book Antiqua Bold" size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="1140.0" layoutY="105.0" onMouseClicked="#logout" prefHeight="39.0" prefWidth="159.0" style="-fx-background-color: #00ffff; -fx-background-radius: 15;">
+         <children>
+            <Label layoutX="40.0" layoutY="7.0" text="Logout">
+               <font>
+                  <Font name="Book Antiqua Bold" size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

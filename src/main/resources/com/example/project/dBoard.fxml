@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="878.0" prefWidth="1779.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.DBoard">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <AnchorPane layoutX="-45.0" layoutY="-16.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="887.0" prefWidth="1790.0" style="-fx-background-color: #00ffff; -fx-border-width: 3;">
+               <children>
+                  <AnchorPane layoutX="-45.0" layoutY="-11.0" prefHeight="884.0" prefWidth="345.0" style="-fx-background-color: #00ffff; -fx-background-radius: 100; -fx-border-color: blue; -fx-border-radius: 100;">
+                     <children>
+                        <ImageView fitHeight="114.0" fitWidth="119.0" layoutX="122.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/user.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="adminAccount" alignment="CENTER" layoutX="109.0" layoutY="169.0" prefHeight="30.0" prefWidth="186.0" text="Admin Account" textAlignment="CENTER" textFill="#067072">
+                           <font>
+                              <Font size="23.0" />
+                           </font>
+                        </Label>
+                        <AnchorPane layoutX="95.0" layoutY="224.0" onMouseClicked="#switchToAccounts" prefHeight="41.0" prefWidth="226.0" style="-fx-background-color: #fff; -fx-background-radius: 15;">
+                           <children>
+                              <Label layoutX="60.0" layoutY="8.0" onMouseClicked="#switchToAccounts" text="ACOUNTS" textFill="#079d9d">
+                                 <font>
+                                    <Font name="Bodoni MT Bold" size="21.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="34.0" fitWidth="40.0" layoutX="14.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/userw.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="95.0" layoutY="298.0" onMouseClicked="#addDrugs" prefHeight="41.0" prefWidth="226.0" style="-fx-background-color: #fff; -fx-background-radius: 15;">
+                           <children>
+                              <Label layoutX="74.0" layoutY="3.0" onMouseClicked="#addDrugs" text="Drugs" textFill="#079d9d">
+                                 <font>
+                                    <Font name="Bodoni MT Bold" size="25.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="41.0" fitWidth="57.0" layoutX="15.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/iconTable.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="95.0" layoutY="378.0" prefHeight="41.0" prefWidth="226.0" style="-fx-background-color: #fff; -fx-background-radius: 15;">
+                           <children>
+                              <Label layoutX="76.0" layoutY="5.0" text="Reports" textFill="#079d9d">
+                                 <font>
+                                    <Font name="Bodoni MT Bold" size="25.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="41.0" fitWidth="57.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/graphreport.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="95.0" layoutY="452.0" prefHeight="41.0" prefWidth="226.0" style="-fx-background-color: #fff; -fx-background-radius: 15;">
+                           <children>
+                              <Label layoutX="85.0" text="Analysis" textFill="#079d9d">
+                                 <font>
+                                    <Font name="Bodoni MT Bold" size="25.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="41.0" fitWidth="63.0" layoutX="7.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/financialAnalysis.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="95.0" layoutY="528.0" prefHeight="41.0" prefWidth="226.0" style="-fx-background-color: #fff; -fx-background-radius: 15;">
+                           <children>
+                              <Label layoutX="63.0" layoutY="5.0" text="Issue Drugs" textFill="#079d9d">
+                                 <font>
+                                    <Font name="Bodoni MT Bold" size="25.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="41.0" fitWidth="63.0" layoutX="6.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/syringe.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="95.0" layoutY="600.0" prefHeight="41.0" prefWidth="226.0" style="-fx-background-color: #fff; -fx-background-radius: 15;">
+                           <children>
+                              <Label layoutX="58.0" layoutY="5.0" text="Destinations" textFill="#079d9d">
+                                 <font>
+                                    <Font name="Bodoni MT Bold" size="25.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="7.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/findHospital.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="95.0" layoutY="668.0" prefHeight="41.0" prefWidth="226.0" style="-fx-background-color: #fff; -fx-background-radius: 15;">
+                           <children>
+                              <Label layoutX="58.0" layoutY="5.0" text="Notifications" textFill="#079d9d">
+                                 <font>
+                                    <Font name="Bodoni MT Bold" size="25.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="34.0" fitWidth="41.0" layoutX="11.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/remonder.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="95.0" layoutY="734.0" onMouseClicked="#signIn" prefHeight="41.0" prefWidth="226.0" style="-fx-background-color: #fff; -fx-background-radius: 15;">
+                           <children>
+                              <Label layoutX="74.0" layoutY="3.0" onMouseClicked="#signIn" text="Logout" textFill="#079d9d">
+                                 <font>
+                                    <Font name="Bodoni MT Bold" size="25.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="34.0" fitWidth="41.0" layoutX="8.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/logout.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="316.0" layoutY="218.0" prefHeight="114.0" prefWidth="161.0" style="-fx-background-color: #F1FCFC; -fx-background-radius: 10; -fx-border-color: #079d9d; -fx-border-radius: 5;">
+                     <children>
+                        <ImageView fitHeight="60.0" fitWidth="64.0" layoutX="89.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/shopping-cart.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="24.0" layoutY="3.0" text="New orders" textFill="#079d9d">
+                           <font>
+                              <Font name="Bodoni MT Bold" size="25.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="24.0" layoutY="45.0" text="100" textFill="#1205f0">
+                           <font>
+                              <Font name="Bodoni MT Bold" size="43.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="527.0" layoutY="218.0" prefHeight="114.0" prefWidth="161.0" style="-fx-background-color: #F1FCFC; -fx-background-radius: 10; -fx-border-color: #079d9d; -fx-border-radius: 5;">
+                     <children>
+                        <Label layoutX="18.0" layoutY="7.0" text="Total Orders" textFill="#079d9d">
+                           <font>
+                              <Font name="Bodoni MT Bold" size="25.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="48.0" layoutY="48.0" text="1200" textFill="#1205f0">
+                           <font>
+                              <Font name="Bodoni MT Bold" size="43.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="740.0" layoutY="218.0" prefHeight="114.0" prefWidth="161.0" style="-fx-background-color: #F1FCFC; -fx-background-radius: 10; -fx-border-color: #079d9d; -fx-border-radius: 5;">
+                     <children>
+                        <ImageView fitHeight="60.0" fitWidth="64.0" layoutX="14.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/remonder.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="16.0" layoutY="14.0" text="Notifications" textFill="#079d9d">
+                           <font>
+                              <Font name="Bodoni MT Bold" size="25.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="82.0" layoutY="49.0" text="700" textFill="#1205f0">
+                           <font>
+                              <Font name="Bodoni MT Bold" size="43.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="968.0" layoutY="218.0" prefHeight="114.0" prefWidth="161.0" style="-fx-background-color: #F1FCFC; -fx-background-radius: 10; -fx-border-color: #079d9d; -fx-border-radius: 5;">
+                     <children>
+                        <ImageView fitHeight="60.0" fitWidth="64.0" layoutX="19.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/buy.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="13.0" layoutY="14.0" text="Total Deliveries" textFill="#079d9d">
+                           <font>
+                              <Font name="Bodoni MT Bold" size="25.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="94.0" layoutY="49.0" text="130" textFill="#1205f0">
+                           <font>
+                              <Font name="Bodoni MT Bold" size="43.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="1211.0" layoutY="218.0" prefHeight="114.0" prefWidth="161.0" style="-fx-background-color: #F1FCFC; -fx-background-radius: 10; -fx-border-color: #079d9d; -fx-border-radius: 5;">
+                     <children>
+                        <ImageView fitHeight="60.0" fitWidth="74.0" layoutX="12.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/nale.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="24.0" layoutY="6.0" text="Total Users" textFill="#079d9d">
+                           <font>
+                              <Font name="Bodoni MT Bold" size="25.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="83.0" layoutY="41.0" text="800" textFill="#1205f0">
+                           <font>
+                              <Font name="Bodoni MT Bold" size="43.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <PieChart fx:id="pieChart" layoutX="835.0" layoutY="404.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="321.0" prefWidth="537.0" style="-fx-background-color: #fff;" />
+                  <Button layoutX="316.0" layoutY="738.0" mnemonicParsing="false" onAction="#showChartsData" prefHeight="30.0" prefWidth="121.0" text="Data" />
+                  <BarChart fx:id="BarChart" barGap="100.0" categoryGap="50.0" layoutX="316.0" layoutY="404.0" prefHeight="321.0" prefWidth="500.0" style="-fx-background-color: #fff;" title="Local Drug usage">
+                     <xAxis>
+                        <CategoryAxis endMargin="100.0" label="Drug names" startMargin="0.0" tickLabelFill="#fc0606" tickLabelGap="20.0" tickLabelRotation="40.0" />
+                     </xAxis>
+                     <yAxis>
+                        <NumberAxis side="LEFT" />
+                     </yAxis>
+                  </BarChart>
+                  <AnchorPane layoutX="310.0" layoutY="83.0" prefHeight="79.0" prefWidth="1063.0" style="-fx-background-color: #079d9d; -fx-background-radius: 20; -fx-border-radius: 20;">
+                     <children>
+                        <Label layoutX="45.0" layoutY="20.0" text="PHARMACEUTICAL DRUG ANALYSER AND DISTRIBUTOR SYSTEM" textFill="WHITE">
+                           <font>
+                              <Font name="Bodoni MT Bold" size="32.0" />
+                           </font>
+                        </Label>
+                     </children></AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

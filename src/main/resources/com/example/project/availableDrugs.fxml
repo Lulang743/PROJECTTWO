@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="824.0" prefWidth="1423.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.AvailableDrugs">
+   <children>
+      <AnchorPane layoutY="-4.0" prefHeight="74.0" prefWidth="1423.0" style="-fx-background-color: blue;">
+         <children>
+            <Label alignment="CENTER" layoutX="331.0" layoutY="10.0" prefHeight="54.0" prefWidth="606.0" text="ALL AVAILABLE DRUGS " textFill="#fcfcfc">
+               <font>
+                  <Font name="Britannic Bold" size="31.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="1325.0" layoutY="27.0" prefHeight="33.0" prefWidth="33.0" style="-fx-background-color: red; -fx-border-radius: 10; -fx-background-radius: 10;">
+               <children>
+                  <ImageView fitHeight="40.0" fitWidth="34.0" onMouseClicked="#Logout" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/logout.png" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+            <ImageView fitHeight="61.0" fitWidth="76.0" layoutX="40.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/profile.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="118.0" layoutY="28.0" prefHeight="33.0" prefWidth="100.0" text="Account">
+               <font>
+                  <Font name="Britannic Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TableView layoutX="11.0" layoutY="167.0" prefHeight="504.0" prefWidth="1352.0">
+        <columns>
+          <TableColumn prefWidth="140.0" text="Drug Name" />
+          <TableColumn prefWidth="166.0" text="Drug ID" />
+            <TableColumn prefWidth="172.0" text="Drug Category" />
+            <TableColumn prefWidth="181.0" text="Drug Therapy Area" />
+            <TableColumn prefWidth="180.0" text="Drug Quantity" />
+            <TableColumn prefWidth="172.0" text="Expiry Date" />
+            <TableColumn prefWidth="170.0" text="Prod. Date" />
+            <TableColumn prefWidth="170.0" text="Added  Date" />
+        </columns>
+      </TableView>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="117.0" prefHeight="40.0" prefWidth="241.0" text="View Drugs by category">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Label>
+      <ChoiceBox layoutX="255.0" layoutY="125.0" prefHeight="33.0" prefWidth="253.0" />
+      <Label alignment="CENTER" layoutX="80.0" layoutY="694.0" prefHeight="54.0" prefWidth="227.0" text="TOTAL">
+         <font>
+            <Font name="Calibri" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="255.0" layoutY="684.0" prefHeight="74.0" prefWidth="76.0" style="-fx-background-color: RED; -fx-background-radius: 50;" text="90" textFill="#0d05fc">
+         <font>
+            <Font name="Century" size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

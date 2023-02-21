@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="712.0" prefWidth="1370.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.DrugsMenu">
+   <children>
+      <ImageView fitHeight="999.0" fitWidth="1396.0" layoutY="-100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/rethabilev.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="318.0" layoutY="192.0" prefHeight="550.0" prefWidth="818.0" style="-fx-background-color: #00ffff; -fx-background-radius: 10; -fx-border-width: 3; -fx-border-radius: 10; -fx-border-color: green;">
+         <children>
+            <AnchorPane layoutX="81.0" layoutY="53.0" onMouseClicked="#AvailableDrugs" prefHeight="165.0" prefWidth="175.0" style="-fx-background-color: #079d9d; -fx-background-radius: 15;">
+               <children>
+                  <Label layoutX="57.0" layoutY="30.0" prefHeight="27.0" prefWidth="110.0" text="TOTAL ">
+                     <font>
+                        <Font name="Bodoni MT" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="22.0" layoutY="92.0" text="AVAILABLE">
+                     <font>
+                        <Font name="Bodoni MT" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="57.0" layoutY="65.0" prefHeight="27.0" prefWidth="126.0" text="DRUGS">
+                     <font>
+                        <Font name="Bodoni MT" size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="542.0" layoutY="61.0" onMouseClicked="#issuedDrgs" prefHeight="157.0" prefWidth="175.0" style="-fx-background-color: #079d9d; -fx-background-radius: 15;">
+               <children>
+                  <Label layoutX="41.0" layoutY="36.0" text="ISSUED ">
+                     <font>
+                        <Font name="Bodoni MT" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="83.0" text="DRUGS">
+                     <font>
+                        <Font name="Bodoni MT" size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="312.0" layoutY="61.0" onMouseClicked="#expiredDrugs" prefHeight="157.0" prefWidth="183.0" style="-fx-background-color: #079d9d; -fx-background-radius: 15;">
+               <children>
+                  <Label layoutX="55.0" layoutY="35.0" text="DRUGS">
+                     <font>
+                        <Font name="Bodoni MT" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="24.0" layoutY="79.0" text="EPIRY DATE">
+                     <font>
+                        <Font name="Bodoni MT" size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="81.0" layoutY="275.0" onMouseClicked="#archievedDrugs" prefHeight="157.0" prefWidth="183.0" style="-fx-background-color: #079d9d; -fx-background-radius: 15;">
+               <children>
+                  <Label layoutX="29.0" layoutY="52.0" text="ARCHIVED ">
+                     <font>
+                        <Font name="Bodoni MT" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="53.0" layoutY="100.0" text="DRUGS">
+                     <font>
+                        <Font name="Bodoni MT" size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="312.0" layoutY="275.0" onMouseClicked="#drugHistory" prefHeight="157.0" prefWidth="183.0" style="-fx-background-color: #079d9d; -fx-background-radius: 15;">
+               <children>
+                  <Label layoutX="53.0" layoutY="43.0" text="DRUGS">
+                     <font>
+                        <Font name="Bodoni MT" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="35.0" layoutY="83.0" text="HISTORY">
+                     <font>
+                        <Font name="Bodoni MT" size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="542.0" layoutY="275.0" onMouseClicked="#newDrugs" prefHeight="157.0" prefWidth="175.0" style="-fx-background-color: #079d9d; -fx-background-radius: 15;">
+               <children>
+                  <Label layoutX="61.0" layoutY="47.0" prefHeight="36.0" prefWidth="103.0" text="ADD">
+                     <font>
+                        <Font name="Bodoni MT" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="50.0" layoutY="95.0" prefHeight="36.0" prefWidth="103.0" text="DRUGS">
+                     <font>
+                        <Font name="Bodoni MT" size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="318.0" layoutY="66.0" prefHeight="91.0" prefWidth="818.0" style="-fx-background-color: #079d9d; -fx-background-radius: 15;">
+         <children>
+            <Label layoutX="257.0" layoutY="22.0" text="DRUGS MENU" textFill="WHITE">
+               <font>
+                  <Font name="Book Antiqua Bold" size="38.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

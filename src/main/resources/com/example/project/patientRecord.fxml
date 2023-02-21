@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="756.0" prefWidth="1641.0" style="-fx-background-color: #00FFFF;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.PatientRecord">
+   <children>
+      <TableView layoutX="91.0" layoutY="165.0" prefHeight="542.0" prefWidth="1238.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Name" />
+            <TableColumn prefWidth="104.0" text="PAT-ID" />
+            <TableColumn prefWidth="104.0" text="CONTACT" />
+            <TableColumn prefWidth="104.0" text="CONDITION" />
+            <TableColumn prefWidth="104.0" text="DISEASE" />
+            <TableColumn prefWidth="104.0" text="DRUG NAME" />
+            <TableColumn prefWidth="104.0" text="DRUG_ID" />
+            <TableColumn prefWidth="143.0" text="DRUG_PROD_DATE" />
+            <TableColumn prefWidth="112.0" text="DRUG_EXP_DATE" />
+            <TableColumn prefWidth="135.0" text="DRUG_ISUE_DATE" />
+            <TableColumn prefWidth="146.0" text="DRUG_CATEGORY" />
+        </columns>
+      </TableView>
+      <AnchorPane layoutX="96.0" layoutY="28.0" prefHeight="71.0" prefWidth="1232.0" style="-fx-border-color: blue; -fx-border-width: 3; -fx-background-radius: 10; -fx-border-radius: 10;">
+         <children>
+            <Label layoutX="523.0" layoutY="19.0" prefHeight="29.0" prefWidth="395.0" text="PATIENT RECORDS">
+               <font>
+                  <Font name="Britannic Bold" size="32.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="43.0" fitWidth="75.0" layoutX="437.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true" />
+      
+      <Label layoutX="97.0" layoutY="116.0" prefHeight="31.0" prefWidth="259.0" text="Search Patient By" textFill="#2c2a2a">
+         <font>
+            <Font name="Bell MT" size="26.0" />
+         </font>
+      </Label>
+      <ChoiceBox layoutX="325.0" layoutY="119.0" prefHeight="31.0" prefWidth="195.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="755.0" prefWidth="1685.0" style="-fx-background-color: #079d9d;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.Home">
+   <children>
+      <AnchorPane fx:id="parent" prefHeight="790.0" prefWidth="1487.0">
+         <children>
+            <AnchorPane layoutX="1.0" layoutY="68.0" prefHeight="706.0" prefWidth="320.0" style="-fx-background-color: white; -fx-border-color: blue;">
+               <children>
+                  <Label fx:id="homeButton" alignment="CENTER" layoutX="1.0" layoutY="86.0" onDragOver="#homeButtonTouched" prefHeight="41.0" prefWidth="322.0" style="-fx-background-color: blue;" text="Home" textFill="#fcf9f9">
+                     <font>
+                        <Font name="Bodoni MT Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label id="homeButton" fx:id="addUsers" alignment="CENTER" layoutX="28.0" layoutY="147.0" prefHeight="34.0" prefWidth="268.0" style="-fx-border-color: black; -fx-background-radius: 10; -fx-border-radius: 10;" stylesheets="@scenebuilder.css" text="Add Users" textFill="#05c3c3">
+                     <font>
+                        <Font name="Bodoni MT Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label id="homeButton" alignment="CENTER" layoutX="26.0" layoutY="197.0" prefHeight="34.0" prefWidth="273.0" stylesheets="@scenebuilder.css" text="Reports" textFill="#05c3c3">
+                     <font>
+                        <Font name="Bodoni MT Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label id="homeButton" alignment="CENTER" layoutX="27.0" layoutY="249.0" prefHeight="34.0" prefWidth="273.0" stylesheets="@scenebuilder.css" text="Analysis" textFill="#05c3c3">
+                     <font>
+                        <Font name="Bodoni MT Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label id="homeButton" alignment="CENTER" layoutX="27.0" layoutY="304.0" prefHeight="34.0" prefWidth="273.0" stylesheets="@scenebuilder.css" text="Orders" textFill="#05c3c3">
+                     <font>
+                        <Font name="Bodoni MT Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label id="homeButton" alignment="CENTER" layoutX="27.0" layoutY="358.0" prefHeight="34.0" prefWidth="273.0" stylesheets="@scenebuilder.css" text="Available Drugs" textFill="#05c3c3">
+                     <font>
+                        <Font name="Bodoni MT Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label id="homeButton" alignment="CENTER" layoutX="28.0" layoutY="413.0" prefHeight="34.0" prefWidth="273.0" stylesheets="@scenebuilder.css" text="Pharmacies" textFill="#05c3c3">
+                     <font>
+                        <Font name="Bodoni MT Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="34.0" fitWidth="24.0" layoutX="42.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/nale.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="34.0" fitWidth="41.0" layoutX="40.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/statisticalReport.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="34.0" fitWidth="41.0" layoutX="36.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/analysisw.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="34.0" fitWidth="41.0" layoutX="36.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/shoping.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="24.0" fitWidth="34.0" layoutX="41.0" layoutY="363.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/halal.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="34.0" fitWidth="41.0" layoutX="43.0" layoutY="413.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/hospitalL.png" />
+                     </image>
+                  </ImageView>
+                  <Label id="homeButton" alignment="CENTER" layoutX="28.0" layoutY="469.0" prefHeight="34.0" prefWidth="273.0" stylesheets="@scenebuilder.css" text="Drugs Usage" textFill="#05c3c3">
+                     <font>
+                        <Font name="Bodoni MT Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label id="homeButton" alignment="CENTER" layoutX="27.0" layoutY="525.0" prefHeight="34.0" prefWidth="273.0" stylesheets="@scenebuilder.css" text="Drug Details" textFill="#05c3c3">
+                     <font>
+                        <Font name="Bodoni MT Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label id="homeButton" alignment="CENTER" contentDisplay="CENTER" layoutX="25.0" layoutY="575.0" prefHeight="34.0" prefWidth="273.0" stylesheets="@scenebuilder.css" text="Highly Used Drugs" textFill="#05c3c3">
+                     <font>
+                        <Font name="Bodoni MT Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="24.0" fitWidth="34.0" layoutX="48.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/drugicon.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="34.0" fitWidth="41.0" layoutX="43.0" layoutY="525.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/growthAnalysis.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="34.0" fitWidth="41.0" layoutX="43.0" layoutY="575.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/graphreport.png" />
+                     </image>
+                  </ImageView>
+                  <Label id="homeButton" alignment="CENTER" contentDisplay="CENTER" layoutX="28.0" layoutY="618.0" prefHeight="34.0" prefWidth="273.0" stylesheets="@scenebuilder.css" text="Expired Drugs" textFill="#05c3c3">
+                     <font>
+                        <Font name="Bodoni MT Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="34.0" fitWidth="41.0" layoutX="43.0" layoutY="618.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/clock.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutY="664.0" prefHeight="41.0" prefWidth="322.0" style="-fx-background-color: blue;" text="Logout" textFill="#fcfafa">
+                     <font>
+                        <Font name="Bodoni MT Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="41.0" fitWidth="49.0" layoutX="39.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/home.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="34.0" fitWidth="49.0" layoutX="14.0" layoutY="667.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/logout.png" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+            <AnchorPane layoutX="2.0" layoutY="68.0" prefHeight="61.0" prefWidth="1444.0" style="-fx-background-color: red;">
+               <children>
+                  <ImageView fitHeight="49.0" fitWidth="79.0" layoutX="1233.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/profile.png" />
+                     </image>
+                  </ImageView>
+                  <Label id="homoTopButtons" alignment="CENTER" layoutX="1109.0" layoutY="1.0" onMouseClicked="#navigateToLogin" prefHeight="61.0" prefWidth="124.0" stylesheets="@scenebuilder.css" text="Login" textFill="WHITE">
+                     <font>
+                        <Font name="Book Antiqua Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1506e1" height="57.0" layoutX="1104.0" layoutY="4.0" stroke="#00000004" strokeType="INSIDE" width="5.0" />
+                  <Label id="homoTopButtons" alignment="CENTER" layoutX="982.0" layoutY="-1.0" onMouseClicked="#navigateToRegister" prefHeight="61.0" prefWidth="124.0" stylesheets="@scenebuilder.css" text="Register" textFill="WHITE">
+                     <font>
+                        <Font name="Book Antiqua Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1506e1" height="61.0" layoutX="982.0" layoutY="-2.0" stroke="#00000004" strokeType="INSIDE" width="5.0" />
+                  <Label fx:id="timeLabel" alignment="CENTER" layoutY="6.0" prefHeight="49.0" prefWidth="322.0" style="-fx-background-color: white; -fx-background-radius: 5;" text="Time" textFill="#1907f5">
+                     <font>
+                        <Font name="Constantia" size="35.0" />
+                     </font>
+                  </Label>
+                  <Label id="homoTopButtons" alignment="CENTER" layoutX="850.0" layoutY="-1.0" onMouseClicked="#navigateToRegister" prefHeight="61.0" prefWidth="124.0" stylesheets="@scenebuilder.css" text="Notifications" textFill="WHITE">
+                     <font>
+                        <Font name="Book Antiqua Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  
+                                             </children>
+            </AnchorPane>
+            <ImageView fx:id="closeImage" fitHeight="24.0" fitWidth="49.0" layoutX="1336.0" layoutY="23.0" onMouseClicked="#closeButton" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/close.png" />
+               </image>
+            </ImageView>
+            <MediaView fx:id="mediaViewV" fitHeight="670.0" fitWidth="1100.0" layoutX="326.0" layoutY="130.0" />
+            <Label layoutX="314.0" layoutY="14.0" prefHeight="41.0" prefWidth="1005.0" text="PHARMACEUTICAL DRUG ANALYSER AND DISTRIBUTOR " textFill="#fbfcff">
+               <font>
+                  <Font name="Bell MT" size="31.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

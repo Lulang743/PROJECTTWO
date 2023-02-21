@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="910.0" prefWidth="1435.0" style="-fx-background-color: #079d9d;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.AccountsPage">
+   <children>
+      <ImageView fitHeight="981.0" fitWidth="1435.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/backAccounts.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="137.0" layoutY="100.0" prefHeight="579.0" prefWidth="228.0" style="-fx-background-color: white; -fx-background-radius: 10;">
+         <children>
+            <ImageView fitHeight="102.0" fitWidth="105.0" layoutX="47.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/account.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="33.0" layoutY="137.0" prefHeight="33.0" prefWidth="169.0" style="-fx-background-color: #00ffff; -fx-background-radius: 10;" text="Active users" textFill="WHITE">
+               <font>
+                  <Font name="Cambria Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="14.0" layoutY="317.0" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #00ffff; -fx-background-radius: 10;" text="Update users" textFill="WHITE">
+               <font>
+                  <Font name="Cambria Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="14.0" layoutY="393.0" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #00ffff; -fx-background-radius: 10;" text="Archive user" textFill="WHITE">
+               <font>
+                  <Font name="Cambria Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="20.0" layoutY="469.0" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #00ffff; -fx-background-radius: 10;" text="Reset Password" textFill="WHITE">
+               <font>
+                  <Font name="Cambria Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="20.0" layoutY="233.0" prefHeight="40.0" prefWidth="193.0" style="-fx-background-color: #00ffff; -fx-background-radius: 10;" text="View All users" textFill="WHITE">
+               <font>
+                  <Font name="Cambria Bold" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="33.0" fitWidth="33.0" layoutX="17.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/archive.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="20.0" layoutY="531.0" onMouseClicked="#mainMenu" prefHeight="33.0" prefWidth="200.0" style="-fx-background-color: #00ffff; -fx-background-radius: 10;" text="MAIN MENU" textFill="WHITE">
+               <font>
+                  <Font name="Cambria Bold" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="23.0" fitWidth="30.0" layoutX="32.0" layoutY="536.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/menu.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="19.0" layoutY="473.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/password.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="33.0" fitWidth="33.0" layoutX="16.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/changeuser.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="33.0" fitWidth="30.0" layoutX="24.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/nale.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="365.0" layoutY="155.0" prefHeight="143.0" prefWidth="835.0" style="-fx-background-color: white; -fx-background-radius: 10;">
+         <children>
+            <AnchorPane layoutY="119.0" prefHeight="404.0" prefWidth="835.0" style="-fx-background-color: #00ffff; -fx-background-radius: 10;">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/userw.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="53.0" layoutY="194.0" prefHeight="33.0" prefWidth="149.0" text="NAME" textFill="#0313f2">
+                     <font>
+                        <Font name="Gabriola" size="34.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="269.0" layoutY="181.0" prefHeight="33.0" prefWidth="149.0" text="SURNAME" textFill="#0313f2">
+                     <font>
+                        <Font name="Gabriola" size="34.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="53.0" layoutY="332.0" prefHeight="33.0" prefWidth="149.0" text="GENDER" textFill="#0313f2">
+                     <font>
+                        <Font name="Gabriola" size="34.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="53.0" layoutY="256.0" prefHeight="33.0" prefWidth="149.0" text="username">
+                     <font>
+                        <Font name="Gabriola" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="282.0" layoutY="256.0" prefHeight="33.0" prefWidth="149.0" text="username">
+                     <font>
+                        <Font name="Gabriola" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="276.0" layoutY="331.0" prefHeight="33.0" prefWidth="149.0" text="username">
+                     <font>
+                        <Font name="Gabriola" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="646.0" layoutY="181.0" prefHeight="33.0" prefWidth="149.0" text="PHONE" textFill="#0313f2">
+                     <font>
+                        <Font name="Gabriola" size="34.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="474.0" layoutY="181.0" prefHeight="33.0" prefWidth="149.0" text="AGE" textFill="#0313f2">
+                     <font>
+                        <Font name="Gabriola" size="34.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="474.0" layoutY="256.0" prefHeight="33.0" prefWidth="149.0" text="username">
+                     <font>
+                        <Font name="Gabriola" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="659.0" layoutY="256.0" prefHeight="33.0" prefWidth="149.0" text="username">
+                     <font>
+                        <Font name="Gabriola" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="474.0" layoutY="331.0" prefHeight="33.0" prefWidth="149.0" text="USERTYPE" textFill="#0313f2">
+                     <font>
+                        <Font name="Gabriola" size="34.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="659.0" layoutY="331.0" prefHeight="33.0" prefWidth="149.0" text="username">
+                     <font>
+                        <Font name="Gabriola" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="276.0" layoutY="25.0" prefHeight="33.0" prefWidth="149.0" text="USER ID" textFill="#0313f2">
+                     <font>
+                        <Font name="Gabriola" size="34.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="467.0" layoutY="25.0" prefHeight="33.0" prefWidth="149.0" text="DOB" textFill="#0313f2">
+                     <font>
+                        <Font name="Gabriola" size="34.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="282.0" layoutY="96.0" prefHeight="33.0" prefWidth="149.0" text="username">
+                     <font>
+                        <Font name="Gabriola" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="474.0" layoutY="96.0" prefHeight="33.0" prefWidth="149.0" text="username">
+                     <font>
+                        <Font name="Gabriola" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="659.0" layoutY="25.0" prefHeight="33.0" prefWidth="149.0" text="CLOCK TIME" textFill="#0313f2">
+                     <font>
+                        <Font name="Gabriola" size="34.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="659.0" layoutY="80.0" prefHeight="33.0" prefWidth="149.0" text="username">
+                     <font>
+                        <Font name="Gabriola" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="79.0" layoutY="15.0" prefHeight="102.0" prefWidth="179.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+               <children>
+                  <ImageView fitHeight="67.0" fitWidth="94.0" layoutX="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/userp.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="-4.0" layoutY="60.0" prefHeight="40.0" prefWidth="187.0" text="ADMINISTRATORS" textFill="#0a0a0a">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="326.0" layoutY="15.0" prefHeight="102.0" prefWidth="111.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+               <children>
+                  <ImageView fitHeight="67.0" fitWidth="94.0" layoutX="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/userp.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="-5.0" layoutY="61.0" prefHeight="40.0" prefWidth="154.0" text="PHARMACISTS" textFill="#1a1a1b">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="556.0" layoutY="17.0" prefHeight="102.0" prefWidth="193.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+               <children>
+                  <ImageView fitHeight="67.0" fitWidth="94.0" layoutX="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/userp.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutY="61.0" prefHeight="40.0" prefWidth="193.0" text="DOCTORS/NURSES" textFill="#171717">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label alignment="CENTER" layoutX="21.0" layoutY="29.0" prefHeight="33.0" prefWidth="30.0" text="1" textFill="#3203ee">
+               <font>
+                  <Font name="Cambria Bold" size="46.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="268.0" layoutY="29.0" prefHeight="33.0" prefWidth="30.0" text="2" textFill="#3203ee">
+               <font>
+                  <Font name="Cambria Bold" size="46.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="503.0" layoutY="38.0" prefHeight="33.0" prefWidth="30.0" text="3" textFill="#3203ee">
+               <font>
+                  <Font name="Cambria Bold" size="46.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" layoutX="364.0" layoutY="100.0" prefHeight="74.0" prefWidth="835.0" style="-fx-background-color: #00ffff; -fx-background-radius: 15;" text="ACCOUNTS" textFill="#1f02fa">
+         <font>
+            <Font name="Courier New Bold" size="50.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="closeImage" fitHeight="33.0" fitWidth="46.0" layoutX="1307.0" layoutY="14.0" onMouseClicked="#closeWindow" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/close.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

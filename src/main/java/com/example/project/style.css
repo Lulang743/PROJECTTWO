@@ -1,0 +1,12 @@
+.singButton:hover{
+
+background-color:#002ead;
+transition:0.7s;
+
+}
+.background{
+-fx-background-image:url("backaaa.jpg");
+}
+#button:hover{
+  -fx-background-color: white;
+}

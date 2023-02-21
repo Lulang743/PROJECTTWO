@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="771.0" prefWidth="1664.0" style="-fx-background-color: #154245;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.addDrug">
+   <children>
+      <TableView fx:id="drugTableview" layoutX="255.0" layoutY="98.0" prefHeight="528.0" prefWidth="1097.0">
+        <columns>
+          <TableColumn fx:id="drugColumnName" prefWidth="88.0" text="Name" />
+          <TableColumn fx:id="drugIdColomn" minWidth="0.0" prefWidth="112.0" text="Drug ID" />
+            <TableColumn fx:id="drugCategoryColumn" minWidth="0.0" prefWidth="94.0" text="Category" />
+            <TableColumn fx:id="drugAreaColumn" minWidth="0.0" prefWidth="141.0" text="Therapy Area" />
+            <TableColumn fx:id="drugSubstanceColumn" minWidth="0.0" prefWidth="108.0" text="Active substance" />
+            <TableColumn fx:id="drugQuantityColumn" minWidth="0.0" prefWidth="107.0" text="Quantity" />
+            <TableColumn fx:id="drugQuantityColumnUnits" minWidth="0.0" prefWidth="101.0" text="QuantityUnits" />
+            <TableColumn fx:id="drugColumnPatientSafety" minWidth="0.0" prefWidth="82.0" text="patientSafety" />
+            <TableColumn fx:id="drugProdDate" minWidth="0.0" prefWidth="94.0" text="Prod_date" />
+            <TableColumn fx:id="drugExpiryDate" minWidth="0.0" prefWidth="85.0" text="Expiry Date" />
+            <TableColumn fx:id="drugAddedDate" minWidth="0.0" prefWidth="83.0" text="Added Daate" />
+        </columns>
+      </TableView>
+      <TextField fx:id="addDrugName" alignment="CENTER" layoutX="14.0" layoutY="121.0" prefHeight="34.0" prefWidth="211.0" promptText="name" />
+      <TextField fx:id="addDruId" alignment="CENTER" layoutX="19.0" layoutY="179.0" prefHeight="34.0" prefWidth="204.0" promptText="drug ID" />
+      <TextField fx:id="addDrugTherapyArea" alignment="CENTER" layoutX="20.0" layoutY="303.0" prefHeight="34.0" prefWidth="204.0" promptText="Therapy Rea" />
+      <TextField fx:id="addDrugActiveSubstance" alignment="CENTER" layoutX="20.0" layoutY="373.0" prefHeight="34.0" prefWidth="211.0" promptText="Active substance" />
+      <AnchorPane layoutX="894.0" layoutY="638.0" onMouseClicked="#mainMenu" prefHeight="40.0" prefWidth="171.0" style="-fx-background-color: #00ffff; -fx-background-radius: 15;">
+         <children>
+            <Label alignment="CENTER" layoutX="13.0" layoutY="3.0" onMouseClicked="#mainMenu" prefHeight="34.0" prefWidth="174.0" text="MAIN MENU">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="705.0" layoutY="638.0" prefHeight="40.0" prefWidth="171.0" style="-fx-background-color: #00ffff; -fx-background-radius: 15;">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="48.0" layoutX="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/archive.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="34.0" layoutY="3.0" prefHeight="34.0" prefWidth="137.0" text="ARCHIVE DRUG">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="485.0" layoutY="638.0" prefHeight="40.0" prefWidth="174.0" style="-fx-background-color: #00ffff; -fx-background-radius: 15;">
+         <children>
+            <Label alignment="CENTER" layoutX="13.0" layoutY="3.0" prefHeight="34.0" prefWidth="171.0" text="EDIT DRUG">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="257.0" layoutY="638.0" onMouseClicked="#addDrugList" prefHeight="40.0" prefWidth="187.0" style="-fx-background-color: #00ffff; -fx-background-radius: 15;">
+         <children>
+            <Label alignment="CENTER" layoutX="14.0" layoutY="3.0" prefHeight="34.0" prefWidth="171.0" text="ADD DRUG">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="85.0" fitWidth="96.0" layoutX="72.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/user.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="userNameLabel" alignment="CENTER" layoutX="285.0" layoutY="40.0" prefHeight="34.0" prefWidth="237.0" style="-fx-background-color: #079d9d; -fx-background-radius: 10;" text="Label" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Georgia Bold" size="29.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="myDatePicker" layoutX="17.0" layoutY="580.0" onAction="#getProdDatePicker" prefHeight="34.0" prefWidth="220.0" promptText="Production Date" style="-fx-background-radius: 5; -fx-border-radius: 15;" />
+      <ChoiceBox fx:id="myChoiceBx" layoutX="21.0" layoutY="508.0" prefHeight="34.0" prefWidth="211.0" />
+      <Label fx:id="timelabel" alignment="CENTER" layoutX="1089.0" layoutY="688.0" prefHeight="85.0" prefWidth="220.0" text="Time" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="1309.0" layoutY="22.0" onMouseClicked="#signIn" prefHeight="24.0" prefWidth="24.0" style="-fx-background-color: #fff; -fx-background-radius: 15;">
+         <children>
+            <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="2.0" layoutY="1.0" onMouseClicked="#signIn" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/logout.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane layoutX="1101.0" layoutY="638.0" onMouseClicked="#addPrescription" prefHeight="40.0" prefWidth="196.0" style="-fx-background-color: #00ffff; -fx-background-radius: 15;">
+         <children>
+            <Label alignment="CENTER" layoutX="13.0" layoutY="3.0" onMouseClicked="#addPrescription" prefHeight="34.0" prefWidth="171.0" text="ADD PRESCRIPTION">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <DatePicker fx:id="myDatePicker1" layoutX="17.0" layoutY="644.0" onAction="#getExpDatePicker" prefHeight="34.0" prefWidth="220.0" promptText="Expiry Date" style="-fx-background-radius: 5; -fx-border-radius: 15;" />
+      <ChoiceBox fx:id="addDrugCategory" layoutX="19.0" layoutY="243.0" prefHeight="34.0" prefWidth="211.0" />
+      <ChoiceBox fx:id="drugQuantityChoice" layoutX="140.0" layoutY="440.0" prefHeight="34.0" prefWidth="92.0" />
+      <TextField fx:id="drugQuantitySize" layoutX="22.0" layoutY="439.0" prefHeight="34.0" prefWidth="105.0" promptText="DRUG SIZE" />
+   </children>
+</AnchorPane>

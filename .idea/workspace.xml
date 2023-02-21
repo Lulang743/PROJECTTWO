@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="374fb76c-b6be-4370-b497-f0d556020957" name="Changes" comment="MAJOR PROJECT">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-j-8.0.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/postgresql-42.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/AccountsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/AddPatient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/AvailableDrugs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/DBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/DoctorDashBord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/DrugsMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/MainHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/MakeAnalysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/MySqlJdbcDriver.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/PatientRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/PharmacistDashboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/Reports.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/addDrugModelTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/allDrugs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/issuePrescription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/mysql-connector.jar.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/scenebuilder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Explanatory.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/AccountsPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/DBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/Explanatory.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/Home.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/MainHomePage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/PharmacistDashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/addDrug.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/addPatient.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/allDrugs.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/availableDrugs.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/backaaa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/controller.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/dBoard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/doctorDashBord.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/drugsMenu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/issuePrescription.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/patientRecord.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/scenebuilder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/add-friend.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/add-user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/analysis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/analysisw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/archive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/availaupdates.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/backAccounts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/backaaa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/backblue.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/backcolor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/backhealth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/backindustry.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/backpill.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/backpills.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/backtransparent.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/backyellow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/bell-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cancelling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/changeuser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/delivery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/drugicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/editIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/financialAnalysis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/findHospital.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/graphreport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/growthAnalysis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/halal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/hide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/homebutton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/hospital.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/hospitalL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/hospitalsiren.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/iconTable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/images.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/information-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/istockphoto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/logoutT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/menu-dots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/menuq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/monitoring.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/nale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/patback.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/patientback.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/pattback.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/profile-user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/profileL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/ratio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/remonder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/rethabilev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/shoping.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/shopping-cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/show.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/statisticalReport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/syringe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/trash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/updateL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/updatei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/userp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/userr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/userw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/windowsInterface.ico" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2KKgnC114c01wFYnqWBeF12Hdhz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/LLdux/Music/PROJECT/LIBRARY/postgresql-42.5.2.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DULANGLEAKHA\Music\PROJECT\src\main\resources\images" />
+      <recent name="C:\Users\DULANGLEAKHA\Music\PROJECT\src\main\resources\com\example\project" />
+      <recent name="C:\Users\DULANGLEAKHA\Music\PROJECT\src\main\java\com\example\project" />
+      <recent name="C:\Users\DULANGLEAKHA\Music\PROJECT\src\main\resources" />
+      <recent name="C:\Users\DULANGLEAKHA\Music\PROJECT\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DULANGLEAKHA\Music\PROJECT\src\main\java\com\example\project" />
+      <recent name="C:\Users\DULANGLEAKHA\IdeaProjects\PROJECT\src\main\java" />
+      <recent name="C:\Users\DULANGLEAKHA\IdeaProjects\PROJECT\src\main\resources" />
+      <recent name="C:\Users\DULANGLEAKHA\IdeaProjects\PROJECT\src" />
+      <recent name="C:\Users\DULANGLEAKHA\IdeaProjects\PROJECT\src\main\resources\com\example\project" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.project.HelloApplication" />
+      <module name="PROJECT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="374fb76c-b6be-4370-b497-f0d556020957" name="Changes" comment="" />
+      <created>1673728857775</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673728857775</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MAJOR PROJECT" />
+    <option name="LAST_COMMIT_MESSAGE" value="MAJOR PROJECT" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PROJECT$HelloApplication.ic" NAME="HelloApplication Coverage Results" MODIFIED="1676636483486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.project.*</FILTER>
+    </SUITE>
+  </component>
+</project>
